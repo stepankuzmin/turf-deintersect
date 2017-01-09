@@ -2,9 +2,9 @@ const difference = require('@turf/difference');
 
 /**
  * Delete {@link Polygon|polygons} intersections by clipping from next polygon
- * each previous polygons.
+ * each previous polygon.
  *
- * @module turf/delete-intersections
+ * @module turf/deintersect
  * @category transformation
  * @param {Array<Polygon>} polygons input polygon features
  * @return {Array<Polygon>} a polygon features without intersections

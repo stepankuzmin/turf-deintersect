@@ -1,12 +1,14 @@
-# turf-delete-intersections
+# turf-deintersect
 
-Delete GeoJSON polygons intersections
+[![build status](https://secure.travis-ci.org/stepankuzmin/turf-deintersect.png)](http://travis-ci.org/stepankuzmin/turf-deintersect)
+
+Delete GeoJSON polygon intersections
 
 
-### `turf.delete-intersections(polygons)`
+### `turf.deintersect(polygons)`
 
 Delete Polygon|polygons intersections by clipping from next polygon
-each previous polygons.
+each previous polygon.
 
 ### Parameters
 
@@ -51,7 +53,7 @@ var poly2 = {
   }
 };
 
-var differenced = turf.delete-intersections([poly1, poly2]);
+var deintersected = turf.deintersect([poly1, poly2]);
 
 var polygonsBefore = {
   "type": "FeatureCollection",
@@ -60,7 +62,7 @@ var polygonsBefore = {
 
 var polygonsAfter = {
   "type": "FeatureCollection",
-  "features": differenced
+  "features": deintersected
 };
 
 //=polygonsBefore
@@ -76,7 +78,7 @@ var polygonsAfter = {
 Requires [nodejs](http://nodejs.org/).
 
 ```sh
-$ npm install turf-delete-intersections
+$ npm install turf-deintersect
 ```
 
 ## Tests
