@@ -1,0 +1,32 @@
+{
+  "name": "turf-deintersect",
+  "version": "1.0.0",
+  "description": "Delete GeoJSON polygon intersections",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/test.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stepankuzmin/turf-deintersect.git"
+  },
+  "keywords": [
+    "turf",
+    "gis"
+  ],
+  "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/stepankuzmin/turf-deintersect/issues"
+  },
+  "homepage": "https://github.com/stepankuzmin/turf-deintersect",
+  "dependencies": {
+    "@turf/difference": "3.7.0"
+  },
+  "devDependencies": {
+    "dox": "0.9.0",
+    "doxme": "1.8.2",
+    "tape": "4.6.3"
+  }
+}
