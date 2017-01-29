@@ -1,8 +1,7 @@
 # turf-deintersect
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/stepankuzmin/turf-deintersect.svg)](https://greenkeeper.io/)
-
 [![build status](https://secure.travis-ci.org/stepankuzmin/turf-deintersect.png)](http://travis-ci.org/stepankuzmin/turf-deintersect)
+[![Greenkeeper badge](https://badges.greenkeeper.io/stepankuzmin/turf-deintersect.svg)](https://greenkeeper.io/)
 
 Delete GeoJSON polygon intersections
 
