@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/stepankuzmin/turf-deintersect",
   "dependencies": {
-    "@turf/difference": "4.1.0"
+    "@turf/difference": "4.2.0"
   },
   "devDependencies": {
     "dox": "0.9.0",
