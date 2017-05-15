@@ -3,30 +3,40 @@
   "version": "1.0.0",
   "description": "Delete GeoJSON polygon intersections",
   "main": "index.js",
-  "scripts": {
-    "test": "tape test/test.js",
-    "doc": "dox -r < index.js | doxme --readme > README.md"
-  },
+  "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
+  "license": "MIT",
+  "homepage": "https://github.com/stepankuzmin/turf-deintersect",
   "repository": {
     "type": "git",
     "url": "git://github.com/stepankuzmin/turf-deintersect.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stepankuzmin/turf-deintersect/issues"
   },
   "keywords": [
     "turf",
     "gis"
   ],
-  "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/stepankuzmin/turf-deintersect/issues"
+  "scripts": {
+    "commit": "git-cz",
+    "release": "standard-version",
+    "test": "tape test/test.js",
+    "doc": "dox -r < index.js | doxme --readme > README.md"
   },
-  "homepage": "https://github.com/stepankuzmin/turf-deintersect",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "@turf/difference": "4.3.0"
   },
   "devDependencies": {
     "dox": "0.9.0",
     "doxme": "1.8.2",
-    "tape": "4.6.3"
+    "tape": "4.6.3",
+    "commitizen": "2.9.6",
+    "cz-conventional-changelog": "2.0.0",
+    "standard-version": "4.0.0"
   }
 }
