@@ -29,7 +29,7 @@
     }
   },
   "dependencies": {
-    "@turf/difference": "4.3.0"
+    "@turf/difference": "4.4.0"
   },
   "devDependencies": {
     "dox": "0.9.0",
