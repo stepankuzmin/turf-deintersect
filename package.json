@@ -29,7 +29,7 @@
     }
   },
   "dependencies": {
-    "@turf/difference": "4.5.1"
+    "@turf/difference": "4.6.0"
   },
   "devDependencies": {
     "commitizen": "2.9.6",
