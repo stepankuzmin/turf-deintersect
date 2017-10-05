@@ -1,6 +1,6 @@
 {
   "name": "turf-deintersect",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Delete GeoJSON polygon intersections",
   "main": "index.js",
   "author": "Stepan Kuzmin <to.stepan.kuzmin@gmail.com> (stepankuzmin.ru)",

@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/stepankuzmin/turf-deintersect/compare/v1.0.0...v1.0.2) (2017-10-05)
+
+
+### Bug Fixes
+
+* **package:** update [@turf](https://github.com/turf)/difference to version 4.4.0 ([be2c4cd](https://github.com/stepankuzmin/turf-deintersect/commit/be2c4cd))
+* **package:** update [@turf](https://github.com/turf)/difference to version 4.5.1 ([04d8773](https://github.com/stepankuzmin/turf-deintersect/commit/04d8773))
+* **package:** update [@turf](https://github.com/turf)/difference to version 4.6.0 ([9b4b081](https://github.com/stepankuzmin/turf-deintersect/commit/9b4b081))
+* **package:** update [@turf](https://github.com/turf)/difference to version 4.7.4 ([2301bc8](https://github.com/stepankuzmin/turf-deintersect/commit/2301bc8))
+
+
+
 <a name="1.0.1"></a>
 ## [1.0.1](https://github.com/stepankuzmin/turf-deintersect/compare/v1.0.0...v1.0.1) (2017-05-15)
 
