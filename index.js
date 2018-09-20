@@ -1,4 +1,4 @@
-const difference = require('@turf/difference');
+const difference = require("@turf/difference");
 
 /**
  * Delete {@link Polygon|polygons} intersections by clipping from next polygon
@@ -59,10 +59,15 @@ const difference = require('@turf/difference');
  * //=polygonsAfter
  */
 function differentiate(newPolygons, polygon) {
-  newPolygons.push(newPolygons.reduce(difference, polygon));
+  const diff = newPolygons.reduce(difference, polygon);
+  if (diff !== null) {
+    newPolygons.push(diff);
+  }
   return newPolygons;
 }
 
-module.exports = function(polygons) {
+function deintersect(polygons) {
   return polygons.slice(1).reduce(differentiate, [polygons[0]]);
-};
+}
+
+module.exports = deintersect;
