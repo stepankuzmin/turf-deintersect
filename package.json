@@ -32,11 +32,11 @@
     "@turf/difference": "6.0.2"
   },
   "devDependencies": {
-    "commitizen": "3.1.1",
-    "cz-conventional-changelog": "2.1.0",
+    "commitizen": "4.0.3",
+    "cz-conventional-changelog": "3.0.2",
     "dox": "0.9.0",
     "doxme": "1.8.2",
-    "standard-version": "5.0.2",
-    "tape": "4.10.2"
+    "standard-version": "7.0.0",
+    "tape": "4.11.0"
   }
 }
